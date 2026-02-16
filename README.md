@@ -32,6 +32,8 @@ cp -r skills/<skill-name> .codex/skills/
 | 스킬 | 설명 | 트리거 |
 |------|------|--------|
 | [nextjs-project-generator](skills/nextjs-project-generator/) | Next.js + React 19 + TypeScript + Tailwind v4 + shadcn/ui + Prisma + NextAuth + TanStack Query 프로젝트 자동 생성 | `"next.js 프로젝트 만들어줘"` |
+| [verify-implementation](skills/verify-implementation/) | 프로젝트의 모든 verify 스킬을 순차 실행하여 통합 검증 보고서 생성 | `"/verify-implementation"` |
+| [manage-skills](skills/manage-skills/) | 세션 변경사항을 분석하여 검증 스킬을 자동 생성/업데이트 | `"/manage-skills"` |
 
 ## 스킬 구조
 
